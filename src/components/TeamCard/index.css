@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.team-item {
+  list-style-type: none;
+  width: 50%;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  height: 85%;
+  border-radius: 12px;
+  border: 1px solid #ffffff;
+  padding-left: 7px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 7px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 24px;
+  text-decoration: none;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease; /* Add transition effects */
+}
+
+.link:hover {
+  background-color: #ffffff66; /* Slightly brighter on hover */
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+@media screen and (min-width: 768px) {
+  .link {
+    padding-left: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 24px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+  }
+}
+
+.team-logo {
+  width: 45px;
+  height: 45px;
+  transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.team-logo:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
+
+@media screen and (min-width: 768px) {
+  .team-logo {
+    width: 80px;
+    height: 80px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .team-logo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.team-name {
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 12px;
+  margin-left: 4px;
+  transition:
+    color 0.3s ease,
+    transform 0.3s ease; /* Add smooth transitions */
+}
+
+.team-name:hover {
+  color: #ffcc00; /* Change color on hover */
+  transform: translateY(-3px); /* Slight upward movement on hover */
+}
+
+@media screen and (min-width: 768px) {
+  .team-name {
+    font-size: 32px;
+    margin-left: 16px;
+  }
+}
