@@ -3,31 +3,31 @@
   "private": true,
   "version": "1.0.0",
   "engines": {
-    "node": "22.x",
+    "node": "18.x",
     "npm": ">=6"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "5.11.9",
-    "@testing-library/react": "11.2.5",
-    "@testing-library/user-event": "12.6.2",
-    "chalk": "4.1.0",
-    "history": "5.0.0",
-    "msw": "0.28.2",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
-    "react-loader-spinner": "4.0.0",
-    "react-router-dom": "5.2.0",
-    "recharts": "2.10.3"
+    "@testing-library/jest-dom": "^6.2.0",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^15.1.0",
+    "chalk": "^5.3.0",
+    "history": "^6.6.0",
+    "msw": "^1.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-loader-spinner": "^5.5.5",
+    "react-router-dom": "^6.16.0",
+    "recharts": "^3.4.0"
   },
   "devDependencies": {
-    "eslint-config-airbnb": "18.2.1",
-    "eslint-config-prettier": "8.1.0",
-    "eslint-plugin-prettier": "3.3.1",
-    "husky": "4.3.8",
-    "lint-staged": "10.5.4",
-    "npm-run-all": "4.1.5",
-    "prettier": "2.2.1",
-    "react-scripts": "4.0.3"
+    "eslint-config-airbnb": "^20.1.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.4",
+    "lint-staged": "^14.0.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.2.1",
+    "react-scripts": "^5.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
